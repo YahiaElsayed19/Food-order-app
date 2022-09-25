@@ -4,6 +4,7 @@ import Modal from "../UI/Modal";
 import CartItem from "./CartItem";
 import Checkout from "./Checkout";
 import classes from "./Cart.module.css";
+
 const Cart = (props) => {
     const [isCheckout, setIsCheckout] = useState(false);
     const cartCtx = useContext(cartContext);
